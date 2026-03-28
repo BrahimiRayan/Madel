@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Syne:wght@400..800&display=swap');
+@import "tailwindcss";
+@import "@nuxt/ui";
+:root{
+  --og:#E8390A;--og2:#FF6B3D;--navy:#060D1A;--navy2:#0D1B2E;
+  --steel:#1A2D44;--glass:rgba(255,255,255,0.04);
+  --border:rgba(255,255,255,0.08);--text:#E8ECF0;--muted:#6B7B8D;
+  --font-h:'Syne',sans-serif;--font-b:'Inter',sans-serif;
+}
+
+html{scroll-behavior:smooth}
+body{font-family:var(--font-b);background:var(--navy);overflow-x: hidden;}
+.mfont{
+    font-family: var(--font-h);
+}

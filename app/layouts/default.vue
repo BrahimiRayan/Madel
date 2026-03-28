@@ -1,0 +1,4 @@
+<template>
+    <Mheader/>
+    <slot/>
+</template>
