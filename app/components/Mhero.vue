@@ -26,33 +26,25 @@
       </div>
 
       <div class="border border-white/10 text-white py-8 px-5 mfont h-max rounded-2xl bg-white/3 backdrop-blur-2xl">
-        <div class="text-center text-(--og) tracking-[0.2em] mb-4">Informations officielles</div>
+        <div class="text-center text-(--og) tracking-[0.2em] mb-4">Nous contacter</div>
 
         <div class="border-b border-white/10">
-          <div class="text-sm text-gray-500">Société</div>
-          <div class="mb-2">TRANS MADEL</div>
-        </div>
-
-        <div class="border-b border-white/10">
-          <div class="text-sm text-gray-500">Code NAF / APE</div>
-          <div class="mb-2">4941B</div>
-          <div class=" mb-2 py-0.5 px-2 border bg-(--og)/15 w-full rounded-2xl flex items-center gap-4 border-orange-600 text-xs">
-            <div class="animate-bounce bg-(--og) w-2 h-2 rounded-full"></div> 
-            <p class="text-(--og)">Fret de proximité</p>
-          </div>
+          <div class="text-sm text-gray-500">Téléphone</div>
+          <div class="mb-2">07 xx xx xx xx</div>
         </div>
 
         <div class="border-b border-white/10">
-          <div class="text-sm text-gray-500">Type d'activité</div>
-          <div class="mb-2">Commerciale</div>
+          <div class="text-sm text-gray-500">Email</div>
+          <div class="mb-2">contact@transmadel.fr</div>
+        </div>
+
+        <div class="border-b border-white/10">
+          <div class="text-sm text-gray-500">Disponibilité</div>
+          <div class="mb-2">Lun – Sam · 7h–20h</div>
         </div>
         <div class="border-b border-white/10">
-          <div class="text-sm text-gray-500">Convention collective</div>
-          <div class="mb-2">Transports routiers (16)</div>
-        </div>
-        <div class="border-b border-white/10">
-          <div class="text-sm text-gray-500">Véhicules</div>
-          <div class="mb-2">≤ 3,5 T avec conducteur</div>
+          <div class="text-sm text-gray-500">Devis</div>
+          <div class="mb-2">Réponse sous 24h</div>
         </div>
       </div>
     </div>
