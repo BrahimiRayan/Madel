@@ -3,11 +3,11 @@
   <div >
 
     <div class="w-full flex items-center justify-center flex-col my-5 gap-4">
-      <div class="text-(--og) flex items-center justify-center gap-3"><div class="animate-bounce">✦</div> Pour qui ?</div>
-      <div class="mfont text-5xl text-center">ON S'ADAPTE <br>À VOTRE SITUATION</div>
+      <div class="text-(--og) flex items-center justify-center gap-3 max-md:text-center"><div class="animate-bounce">✦</div> Pour qui ?</div>
+      <div class="mfont text-5xl text-center max-md:text-xl max-md:text-center ">ON S'ADAPTE <br>À VOTRE SITUATION</div>
     </div>
 
-    <div class="grid grid-cols-3 gap-10 px-30 ">
+    <div class="grid grid-cols-3 max-md:grid-cols-1 gap-10 px-30 max-md:px-7 ">
 
       <div v-for="info in infos" class="p-5 rounded-2xl bg-white/5 border border-white/5 hover:border-(--og)/40 hover:scale-105 transition-all duration-300 ease-in-out">
         <UIcon :name="info.icon" class="size-10 ml-4 mb-2 bg-(--og)"/>

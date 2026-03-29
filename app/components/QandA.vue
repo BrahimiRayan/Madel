@@ -3,11 +3,11 @@
     <section class="my-10">
 
         <div class="w-full flex items-center justify-center flex-col my-5 gap-4">
-            <div class="text-(--og) flex items-center justify-center gap-3"><div class="animate-pulse">✦</div> Questions fréquentes</div>
-            <div class="mfont text-5xl text-center mb-5">VOUS AVEZ DES <br>QUESTIONS ?</div>
+            <div class="text-(--og) flex items-center justify-center gap-3 max-md:text-center"><div class="animate-pulse">✦</div> Questions fréquentes</div>
+            <div class="mfont text-5xl text-center mb-5 max-md:text-center max-md:text-xl">VOUS AVEZ DES <br>QUESTIONS ?</div>
         </div>
 
-        <UAccordion :items="items" class="lg:max-w-xl mx-auto" 
+        <UAccordion :items="items" class="lg:max-w-xl max-md:max-w-sm mx-auto" 
             :ui="{
                 header : 'text-2xl mfont',
                 content : 'text-2xl text-(--og)/90'

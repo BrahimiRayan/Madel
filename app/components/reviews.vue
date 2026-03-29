@@ -1,9 +1,9 @@
 <template>
-    <section class="my-10 p-10">
+    <section class="lg:my-10 p-10">
 
         <div class="w-full flex items-center justify-center flex-col my-5 gap-4">
-            <div class="text-(--og) flex items-center justify-center gap-3"><div class="animate-ping">✦</div> Avis clients</div>
-            <div class="mfont text-5xl text-center mb-5">ILS NOUS ONT FAIT <br>CONFIANCE</div>
+            <div class="text-(--og) flex items-center justify-center gap-3 max-md:text-center "><div class="animate-ping">✦</div> Avis clients</div>
+            <div class="mfont text-5xl text-center mb-5 max-md:text-center max-md:text-xl">ILS NOUS ONT FAIT <br>CONFIANCE</div>
         </div>
 
 
@@ -20,14 +20,9 @@
                 <div class="flex gap-1">
                     <UIcon v-for="(_, index) in 5" :key="index" name="i-solar-star-bold" class="size-4 bg-(--og)"/>
                 </div>
-    
-                <p>
-                    
                     <p class="text-sm p-1">
                         ❝Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, dolores!❞
                     </p>
-                    
-                </p>
             </div>
         </UMarquee>
     </section>

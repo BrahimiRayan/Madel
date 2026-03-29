@@ -3,11 +3,11 @@
         <UMarquee pause-on-hover class="p-6 mb-20">
           <div v-for="val in vals" class="flex items-center gap-x-2">
             <div class="w-2 h-2 bg-(--og) rounded-full"></div>
-            <p>{{ val }}</p>
+            <p class="max-md:text-xs">{{ val }}</p>
           </div>
          </UMarquee>    
-         <section class="flex items-center justify-around bg-white/5 h-40">
-            <div v-for="stat in stats" class="hover:bg-(--og)/10 hover:scale-110 w-full h-full flex flex-col items-center justify-center transition-all duration-300 ease-in-out">
+         <section class="flex items-center max-md:flex-col justify-around bg-white/5 lg:h-40 gap-5 max-md:p-3 ">
+            <div v-for="stat in stats" class="hover:bg-(--og)/10 hover:scale-110 w-full h-full flex flex-col items-center justify-center transition-all duration-300 ease-in-out max-md:border-b max-md:border-b-white/10 max-md:pb-3">
                 <h2 class="text-5xl font-bold ">{{ stat.stat }} <span class="text-(--og) text-3xl">{{ stat.sign }}</span></h2>
                 <p class="text-gray-500 text-sm max-w-45 text-wrap text-center mt-3">{{ stat.description }}</p>
             </div>

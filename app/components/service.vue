@@ -1,17 +1,17 @@
 <template>
-<section class="py-5 px-30 bg-(--navy2)">
+<section class="py-5 max-md:px-2 lg:px-30 bg-(--navy2)">
 
-  <div class="flex items-center justify-between">
+  <div class="flex max-md:flex-col max-md:gap-4 items-center justify-between">
 
     <div>
-      <div class="text-(--og) text-xs mb-5">+ Nos prestations</div>
-      <div class="text-5xl mfont ">CE QUE FAIT<br>TRANS MADEL</div>
+      <div class="text-(--og) text-xs mb-5 max-md:text-center">+ Nos prestations</div>
+      <div class="text-5xl max-md:text-xl mfont max-md:text-center">CE QUE FAIT<br>TRANS MADEL</div>
     </div>
 
-    <button class="px-10 py-1.5 text-white bg-(--og) rounded-lg ">Contactez Nos →</button>
+    <button class="px-10 py-1.5 text-white bg-(--og) rounded-lg hover:shadow-lg hover:shadow-orange-600/30">Contactez Nos →</button>
   </div>
 
-  <div class="border border-(--og)/20 grid grid-cols-3 bg-black/10 rounded-2xl mt-10 overflow-hidden">
+  <div class="border border-(--og)/20 grid grid-cols-3 max-md:grid-cols-1 bg-black/10 rounded-2xl mt-10 overflow-hidden">
 
     <div v-for="(service, i) in services"  class="p-10 hover:bg-white/5 transition-all duration-300 ease-in-out border border-white/5">
       <div class="text-xs text-(--og)/80">0{{ i + 1}} · {{ service.label }}</div>

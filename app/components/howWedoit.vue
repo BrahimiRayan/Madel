@@ -1,14 +1,17 @@
 <template>
-    <section class="mt-6 px-30 py-20 bg-(--navy2)">
+    <section class="mt-6 lg:px-30 py-20 max-md:py-10 bg-(--navy2)">
 
         <div class="w-full flex items-center justify-center flex-col my-5 gap-4">
-            <div class="text-(--og) flex items-center justify-center gap-3"><div class="animate-spin">✦</div> Comment ça marcheComment ça marche ?</div>
-            <div class="mfont text-5xl text-center mb-5">Simple en 4 étapes</div>
+            <div class="text-(--og) flex items-center justify-center gap-3 max-md:text-center"><div class="animate-spin">✦</div> Comment ça marche ?</div>
+            <div class="mfont text-5xl text-center mb-5 max-md:text-center max-md:text-xl">Simple en 4 étapes</div>
         </div>
 
         <UStepper :items="items" class="w-full" :ui="{
             indicator : 'rounded-full bg-(--og)/90',
-            description : 'text-xs mt-3'
+            title: 'max-md:text-xs',
+            description : 'text-xs max-md:text-[11px] mt-3',
+            trigger : 'text-white',
+            separator : 'bg-(--og)/70'
 
         }" />
     </section>
