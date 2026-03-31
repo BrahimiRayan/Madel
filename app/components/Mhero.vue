@@ -19,8 +19,8 @@
 
         <p class="text-gray-400 text-sm leading-6.5 mt-8 lg:max-w-130 max-md:px-5 max-md:text-center font-extralight">Spécialiste du transport routier de marchandises et du déménagement avec véhicules ≤ 3,5 tonnes. Réactif, assuré, professionnel — en Île-de-France et partout en France.</p>
         <div class="mt-10 flex max-md:items-center max-md:justify-center">
-          <button class="mfont py-2 px-10 max-md:px-4 mr-4 bg-(--og) rounded-lg text-white">Contactez Nos →</button>
-          <button class="py-2 px-10 max-md:px-4 mr-4 bg-transparent border border-gray-300/10 mfont rounded-lg text-white">Nos services</button>
+          <NuxtLink to="/devise" class="mfont py-2 px-10 max-md:px-4 mr-4 bg-(--og) rounded-lg text-white hover:scale-105 transition-all duration-300 ease-in-out">Demander un devise →</NuxtLink>
+          <a href="tel:+33788993343" target="_blank" class="py-2 px-10 max-md:px-4 mr-4 bg-transparent border border-gray-300/10 mfont rounded-lg text-white">Appeler Nos</a>
         </div>
       </div>
 

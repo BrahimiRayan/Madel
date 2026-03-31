@@ -8,7 +8,7 @@
       <div class="text-5xl max-md:text-xl mfont max-md:text-center">CE QUE FAIT<br>TRANS MADEL</div>
     </div>
 
-    <button class="px-10 py-1.5 text-white bg-(--og) rounded-lg hover:shadow-lg hover:shadow-orange-600/30">Contactez Nos →</button>
+    <NuxtLink to="/devise" class="px-10 py-1.5 text-white bg-(--og) rounded-lg hover:shadow-lg hover:shadow-orange-600/30">Contactez Nos →</NuxtLink>
   </div>
 
   <div class="border border-(--og)/20 grid grid-cols-3 max-md:grid-cols-1 bg-black/10 rounded-2xl mt-10 overflow-hidden">
@@ -19,8 +19,12 @@
       <div class="mfont text-xl">{{ service.name }}</div>
       <div class="text-sm text-white/60 my-7">{{ service.discription }}</div>
       <div class="flex items-center justify-end gap-x-5">
-        <UButton icon="i-lucide-phone" size="md" class="bg-(--og) text-white"/>
-        <UButton icon="i-lucide-mail" size="md" class="bg-(--og) text-white"/>
+        <a href="tel:+33711111111" class="decoration-0 bg-(--og) py-1 px-2 rounded-lg">
+          <UIcon name="i-lucide-phone" class="size-4"/>
+        </a>
+        <NuxtLink to="/devise" size="md" class="bg-(--og) py-1 px-2 rounded-lg">
+          <UIcon name="i-lucide-mail" class="size-4"/>
+        </NuxtLink>
       </div>
     </div>
     
