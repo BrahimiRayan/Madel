@@ -1,35 +1,39 @@
 <template>
+  <section class="lg:px-30 max-md:px-4 py-24 max-md:py-14 bg-(--navy2)">
+    <div class="relative flex flex-col items-center text-center">
 
-<section class="lg:p-30 max-md:p-8 bg-(--navy2)">
-    <div class="w-full flex items-center justify-center my-5 max-md:my-2 gap-4">
-            <div class="mfont text-6xl text-center mb-5 max-md:text-center max-md:text-2xl">VOTRE PROJET,<br>
-                <span class="text-(--og)">
-                    ON S'EN CHARGE.
-                </span>
-            </div>
+      <div class="text-[10px] font-bold uppercase tracking-[0.3em] text-(--og) mb-6">Contact</div>
+      <div class="mfont text-7xl max-md:text-4xl leading-[0.9] mb-6">
+        VOTRE PROJET,<br>
+        <span class="text-(--og)">ON S'EN CHARGE.</span>
+      </div>
+      <p class="text-white/50 text-sm leading-relaxed max-w-md mb-12">
+        Devis personnalisé, détaillé et sans surprise. Trans Madel s'occupe de tout, de l'étude à l'intervention.
+      </p>
+
+      <div class="w-full max-w-2xl p-2 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl shadow-[0_20px_60px_rgba(0,0,0,0.4)]">
+        <div class="flex max-md:flex-col items-stretch gap-2">
+          <NuxtLink to="/devise" class="flex-1 px-6 py-4 bg-(--og) text-white rounded-2xl font-medium text-center hover:brightness-110 transition-all duration-300">
+            Demander un devis
+          </NuxtLink>
+          <NuxtLink to="tel:+33661294686" class="flex-1 px-6 py-4 rounded-2xl font-medium text-center hover:bg-white/5 transition-all duration-300">
+            06 61 29 46 86
+          </NuxtLink>
+        </div>
+
+        <div class="flex max-md:flex-col items-center justify-center gap-x-6 gap-y-2 py-4 text-xs text-white/40">
+          <span>Île-de-France &amp; toute la France</span>
+          <span class="hidden md:block w-1 h-1 rounded-full bg-white/20"></span>
+          <span>Réservation à partir de 48h</span>
+          <span class="hidden md:block w-1 h-1 rounded-full bg-white/20"></span>
+          <span>Assurance professionnelle</span>
+        </div>
+      </div>
+
     </div>
-    <div class="text-center text-white/60">Devis gratuit et sans engagement sous 24h. <br> Trans Madel s'occupe de tout.</div>
- <div class="flex flex-col items-center justify-center">
-     <div class="my-5 flex gap-5">
-       <NuxtLink to="/devise" class="px-9 max-md:px-2 py-3 bg-(--og) rounded-xl hover:shadow-xl shadow-orange-600/50 hover:scale-105 transition-all duration-300 ease-in-out">Demander un devis →</NuxtLink>
-       <NuxtLink to="tel:0778892122" class="px-9 max-md:px-2 py-3 bg-transparent border border-white/20 rounded-xl hover:shadow-xl shadow-white/5 hover:scale-105 transition-all duration-300 ease-in-out">📞 Nous appeler </NuxtLink>
-       
-     </div>
-     <div class="flex items-center justify-center gap-4">
-       <div class="py-1 px-2 border border-white/30 rounded-xl bg-white/5 max-md:text-[10px] text-xs text-center">📍Île-de-France & national</div>
-       <div class="py-1 px-2 border border-white/30 rounded-xl bg-white/5 max-md:text-[10px] text-xs text-center">⏱ Réponse sous <strong>24h</strong></div>
-       <div class="py-1 px-2 border border-white/30 rounded-xl bg-white/5 max-md:text-[10px] text-xs text-center">🛡 RC Pro <strong>incluse</strong></div>
-      
-     </div>
- </div>
-
-  <div class="cta-line"></div>
-</section>
+  </section>
 </template>
 
 <style scoped>
-.mfont{
-    font-family: var(--font-h);
-    font-weight:800;
-}
+.mfont { font-family: var(--font-h); font-weight: 800; }
 </style>

@@ -8,7 +8,7 @@
     </div>
 
     <div class="max-w-2xl mx-auto relative">
-      <div class="absolute left-[52px] top-4 bottom-4 w-px bg-gradient-to-b from-(--og)/50 via-(--og)/20 to-transparent max-md:left-[28px]"></div>
+      <div class="absolute left-13 top-4 bottom-4 w-px bg-linear-to-b from-(--og)/50 via-(--og)/20 to-transparent max-md:left-[28px]"></div>
 
       <div
         v-for="(item, i) in items"
