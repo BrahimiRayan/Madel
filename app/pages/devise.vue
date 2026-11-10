@@ -2,10 +2,10 @@
   <div class="min-h-screen bg-(--navy) text-white font-sans">
     <div class="mx-auto px-6 py-10">
 
-      <!-- HEADER (inchangé) -->
-      <div class="mb-16">
-        <NuxtLink to="/" class="...">← Retour à l'accueil</NuxtLink>
-        <div class="flex flex-col items-center justify-center gap-5 text-center">
+      
+        <div class="mb-16">
+          <NuxtLink to="/" class="mfont text-sm"> ← Retour à l'accueil</NuxtLink>
+        <div class="flex flex-col items-center justify-center gap-5 text-center mt-10">
           <div class="absolute w-sm h-30 bg-(--og)/40 blur-2xl"></div>
           <h1 class="mfont text-6xl max-md:text-4xl font-black uppercase leading-none tracking-tight">
             Demander<br><span class="text-(--og)">un devis</span>
@@ -33,7 +33,7 @@
                   : 'border-white/8 bg-white/2 text-(--muted) hover:border-white/20 hover:text-white'
               ]" @click="form.service = service.id">
                 <UIcon :name="service.icon" class="size-6 bg-(--og)" />
-                <span class="mfont font-bold uppercase text-xs tracking-wider leading-tight">{{ service.label }}</span>
+                <span class=" font-bold uppercase md:text-xs max-sm:text-[10px] tracking-wider leading-tight">{{ service.label }}</span>
               </button>
             </div>
             <p v-if="errors.service" class="mt-3 text-red-400 text-xs">{{ errors.service }}</p>
