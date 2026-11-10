@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxt/ui": "^4.6.0",
     "@tailwindcss/vite": "^4.2.2",
+    "nodemailer": "^8.0.4",
     "nuxt": "^4.4.2",
     "tailwindcss": "^4.2.2",
     "vue": "^3.5.30",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.100",
     "@iconify-json/mdi": "^1.2.3",
-    "@iconify-json/vaadin": "^1.2.1"
+    "@iconify-json/vaadin": "^1.2.1",
+    "@types/nodemailer": "^7.0.11"
   }
 }
